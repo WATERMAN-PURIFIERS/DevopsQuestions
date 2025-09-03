@@ -1,9 +1,3 @@
-To generate the markdown file, you’ll need to **log in to ChatGPT** to enable code execution.
-
-But no problem — you can still **run this code yourself locally** in Python! Here's the full script that will generate the `.md` file with examples for each Linux directory:
-
----
-
 ### ✅ Python Script: `linux_directory_structure_with_examples.py`
 
 ````python
@@ -198,28 +192,3 @@ sudo ls /root
 ```
 
 ---
-
-## The End... or the Beginning?
-
-Now that you know Tux’s house **with real Linux commands**, you're ready to explore the Linux filesystem yourself! 🗺️
-"""
-
-# Write to markdown
-
-Path("linux\_directory\_structure\_with\_examples.md").write\_text(linux\_story\_with\_examples)
-
-print("✅ Markdown file created: linux\_directory\_structure\_with\_examples.md")
-
-```
-
----
-
-### 💻 To Run This:
-
-1. Open any Python environment (VS Code, PyCharm, or terminal).
-2. Paste the script.
-3. Run it.
-4. You'll get a file named: `linux_directory_structure_with_examples.md`
-
-Let me know if you’d like this turned into a **PDF** or **HTML page** next!
-```
